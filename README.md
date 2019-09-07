@@ -30,6 +30,7 @@ Data](https://www.aclweb.org/anthology/W19-4427), BEA 2019.
 - `systems` - original GEC systems developed for and submitted to the
   restricted and low-resource tracks
 - `outputs` - corrected output and evaluation scores for common GEC test sets
+- `training` - updated training scripts re-producing our GEC system
 
 See _README_ files in each subdirectory for more information.  In case of any
 questions, please open an issue or send me (Roman) an email.
