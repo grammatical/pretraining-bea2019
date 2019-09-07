@@ -1,0 +1,22 @@
+relative-paths: true
+models:
+  - big1.npz
+  - big2.npz
+  - big3.npz
+  - big4.npz
+  - lmbig.npz
+weights:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 0.4
+vocabs:
+  - vocab.spm
+  - vocab.spm
+mini-batch: 8
+maxi-batch: 100
+normalize: 1.0
+beam-size: 8
+workspace: 6000
+quiet-translation: true

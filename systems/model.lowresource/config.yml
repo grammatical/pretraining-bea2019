@@ -1,0 +1,30 @@
+relative-paths: true
+quiet-translation: true
+models:
+  - model1.npz
+  - model2.npz
+  - model3.npz
+  - model4.npz
+  - model5.npz
+  - model6.npz
+  - model7.npz
+  - model8.npz
+  - lmbig.npz
+weights:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.2
+vocabs: 
+  - vocab.spm
+  - vocab.spm
+mini-batch: 4
+maxi-batch: 100
+normalize: 1.0
+beam-size: 8
+workspace: 5000

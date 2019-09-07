@@ -2,3 +2,12 @@
 *.swo
 *.swp
 *.pyc
+
+systems/tools/errant
+systems/tools/jfleg
+systems/tools/m2scorer
+systems/tools/marian-dev
+
+systems/model.*/*.npz
+systems/model.*/*.spm
+systems/model.*/*.tgz
