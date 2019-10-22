@@ -27,7 +27,7 @@ This subdirectory contains GEC systems developed for the BEA19 shared task:
 
     If Marian compilation fails, install it manually in `tools/marian-dev`
     following instructions from [the official
-    documentation](https://marian-nmt.github.io/docs/).
+    documentation](https://marian-nmt.github.io/docs/) make sure to add `-DUSE_SENTENCEPIECE=on` to the cmake command.
 
 1. Download models:
 
